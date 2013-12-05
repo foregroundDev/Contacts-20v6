@@ -1,4 +1,4 @@
-{
+﻿{
 	"toJSON": true,
 	"extraProperties": {
 		"version": "2",
@@ -35,7 +35,11 @@
 		"model": {
 			"workspaceLeft": 0,
 			"workspaceTop": 0,
-			"scriptMode": "manual"
+			"scriptMode": "manual",
+			"relationCurve": {
+				"run": true,
+				"mode": 2
+			}
 		}
 	},
 	"dataClasses": [
@@ -48,22 +52,22 @@
 				{
 					"name": "ID",
 					"kind": "storage",
-					"type": "long",
-					"primKey": true,
 					"scope": "public",
-					"autosequence": true
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
 				},
 				{
 					"name": "name",
 					"kind": "storage",
-					"type": "string",
-					"scope": "public"
+					"scope": "public",
+					"type": "string"
 				},
 				{
 					"name": "allEmployees",
 					"kind": "relatedEntities",
-					"type": "EmployeeCollection",
 					"scope": "public",
+					"type": "EmployeeCollection",
 					"reversePath": true,
 					"path": "company"
 				}
@@ -78,37 +82,50 @@
 				{
 					"name": "ID",
 					"kind": "storage",
-					"type": "long",
-					"primKey": true,
 					"scope": "public",
-					"autosequence": true
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
 				},
 				{
 					"name": "lastName",
 					"kind": "storage",
-					"type": "string",
-					"scope": "public"
+					"scope": "public",
+					"type": "string"
 				},
 				{
 					"name": "firstName",
 					"kind": "storage",
-					"type": "string",
-					"scope": "public"
+					"scope": "public",
+					"type": "string"
 				},
 				{
 					"name": "salary",
 					"kind": "storage",
-					"type": "number",
-					"scope": "public"
+					"scope": "public",
+					"type": "number"
 				},
 				{
 					"name": "company",
 					"kind": "relatedEntity",
-					"type": "Company",
 					"scope": "public",
+					"type": "Company",
 					"path": "Company"
+				},
+				{
+					"name": "email",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "phoneMobile",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
 				}
 			]
 		}
-	]
+	],
+	"type": []
 }
