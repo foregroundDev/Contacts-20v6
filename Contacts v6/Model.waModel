@@ -132,6 +132,12 @@
 				},
 				{
 					"name": "phoneHome",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "postalAddressLine1",
 					"scope": "public",
 					"type": "string",
 					"kind": "storage"
