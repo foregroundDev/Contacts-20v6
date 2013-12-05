@@ -114,12 +114,18 @@
 				},
 				{
 					"name": "email",
+					"kind": "storage",
 					"scope": "public",
-					"type": "string",
-					"kind": "storage"
+					"type": "string"
 				},
 				{
 					"name": "phoneMobile",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "phoneWork",
 					"scope": "public",
 					"type": "string",
 					"kind": "storage"
