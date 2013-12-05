@@ -126,6 +126,12 @@
 				},
 				{
 					"name": "phoneWork",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "phoneHome",
 					"scope": "public",
 					"type": "string",
 					"kind": "storage"
