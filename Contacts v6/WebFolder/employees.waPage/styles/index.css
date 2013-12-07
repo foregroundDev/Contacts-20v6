@@ -3,17 +3,6 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#login1 {
-	 z-index: 7;
-	 width: 185px;
-	 height: 80px;
-	 top: 622px;
-	 left: 419px;
-	
-	 position: absolute;
-	 
-}
-
 #btnNext.waf-state-hover {
 	 background-color: rgb(229, 229, 229);
 	 line-height: 0px;
@@ -123,7 +112,7 @@
 	 height: 16px;
 	 top: 107px;
 	 left: 15px;
-	 right: 688px;
+	 right: 682px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -146,7 +135,7 @@
 	 height: 16px;
 	 top: 65px;
 	 left: 15px;
-	 right: 688px;
+	 right: 682px;
 	
 	 position: absolute;
 	 min-width: 75px;
