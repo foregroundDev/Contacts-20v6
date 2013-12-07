@@ -55,3 +55,4 @@ x.storage.loginTime = new Date();
 
 x;
 
+$.jquery();
